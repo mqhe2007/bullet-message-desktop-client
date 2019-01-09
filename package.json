@@ -1,0 +1,40 @@
+{
+  "name": "bullet-message-desktop-client",
+  "version": "1.0.0",
+  "description": "Cross-platform \"bullet message\" client built with Electron",
+  "main": "main.js",
+  "author": "青衿 <122274389@qq.com>",
+  "homepage": "https://github.com/mqhe2007/bullet-message-desktop-client",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win --x64",
+    "build:mac": "electron-builder --mac --x64",
+    "build:linux": "electron-builder --linux --x64"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "build": {
+    "appId": "com.mengqinghe.bmdc",
+    "productName": "子弹短信",
+    "mac": {
+      "target": ["dmg"]
+    },
+    "win": {
+      "target": ["nsis"]
+    },
+    "linux": {
+      "target": ["deb"]
+    }
+  },
+  "devDependencies": {
+    "electron": "^4.0.1",
+    "electron-builder": "^20.38.4"
+  }
+}
