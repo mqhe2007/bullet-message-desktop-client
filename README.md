@@ -14,6 +14,16 @@
 
 等到官方客户端诞生之日，本项目也就寿终正寝了。
 
+## 预览
+
+![screenshot1](https://github.com/mqhe2007/bullet-message-desktop-client/raw/master/screenshot/s1.png)
+
+![screenshot2](https://github.com/mqhe2007/bullet-message-desktop-client/raw/master/screenshot/s2.png)
+
+![screenshot3](https://github.com/mqhe2007/bullet-message-desktop-client/raw/master/screenshot/s3.png)
+
+![screenshot4](https://github.com/mqhe2007/bullet-message-desktop-client/raw/master/screenshot/s4.png)
+
 ## 安装
 
 ### 下载安装包
