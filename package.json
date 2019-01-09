@@ -15,11 +15,10 @@
     "build:linux": "electron-builder --linux --x64"
   },
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "zidanduanxin",
+    "bullet message",
+    "bullet sms",
+    "子弹短信"
   ],
   "build": {
     "appId": "com.mengqinghe.bmdc",
