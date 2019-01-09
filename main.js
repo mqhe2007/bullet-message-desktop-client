@@ -1,5 +1,5 @@
 // Modules to control application life and create native browser window
-const { app, BrowserWindow, Menu } = require('electron')
+const { app, BrowserWindow, Menu, shell } = require('electron')
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -25,6 +25,29 @@ function createWindow() {
         submenu: [
           { label: '复制', accelerator: 'CmdOrCtrl+C', selector: 'copy:' },
           { label: '粘贴', accelerator: 'CmdOrCtrl+V', selector: 'paste:' }
+        ]
+      },
+      {
+        label: '帮助',
+        submenu: [
+          {
+            label: '子弹短信官方',
+            click: function() {
+              shell.openExternal('https://www.zidanduanxin.com')
+            }
+          },
+          {
+            label: '作者主页',
+            click: function() {
+              shell.openExternal('https://mengqinghe.com')
+            }
+          },
+          {
+            label: '项目仓库',
+            click: function() {
+              shell.openExternal('https://github.com/mqhe2007/bullet-message-desktop-client')
+            }
+          }
         ]
       }
     ]
